@@ -1,0 +1,8 @@
+syntax = "proto2";
+package com.dianping.testprotobuf.model;
+
+message CMsg
+{
+    required string msghead = 1;
+    required string msgbody = 2;
+}
